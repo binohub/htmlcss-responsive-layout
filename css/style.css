@@ -1,0 +1,199 @@
+/*! ##### GENERICS ##### */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body 
+{
+    font-family: 'Comfortaa', cursive;
+}
+
+/*! ###### UTILITY ##### */
+
+/*? ##### CONTAINERS ##### */
+.c1-row /* ###### CONTAINER-1-ROW ###### */
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    /* background-color: blue; */
+    /*todo justify-content:; */
+    /*todo align-items: ; */
+}
+.c1-column /* ###### CONTAINER-1-COLUMN ###### */
+{
+    padding: 10px 0px;
+    max-width: 1200px;
+    height: 100%;
+    /* background-color: red; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    /*todo justify-content:; */
+    /*todo align-items: ; */
+}
+.df
+{
+    display: flex;
+}
+.jcsb 
+{
+    justify-content: space-between;
+}
+.aic
+{
+    align-items: center;
+}
+.fdc 
+{
+    flex-direction: column;
+}
+/*? ##### BUTTONS ##### */
+.btn 
+{
+    background-color: white;
+    border-radius: 50px;
+    display: inline-block;
+    height: 40px;
+    width: 85px;
+    margin: 20px 0px;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    color: black;
+}
+.large-btn 
+{
+    height: 60px;
+    width: 285px;
+    border-radius: 50px;
+    line-height: 60px;
+    font-size: 1.2rem;
+}
+.dark-btn 
+{
+    background-color: black;
+    color: white;
+}
+.btn:hover 
+{
+    color: blue;
+    text-decoration: underline;
+}
+
+/*? ##### WIDTH ##### */
+.w-20
+{
+    width: 20%;
+}
+.w-40
+{
+    width: 40%;
+}
+.w-60
+{
+    width: 60%;
+}
+
+/*? ##### BACKGROUND ##### */
+.bg-gray 
+{
+  background-color: #f6f6f6;
+}
+
+/*? ##### PADDING ##### */
+.padding-row 
+{
+    padding: 150px 0px 150px;
+}
+/*? ##### TEXT ##### */
+.bold
+{
+    font-weight: 900;
+}
+/*! ##### HEADER ###### */
+header 
+{
+    background-color: rgb(49, 97, 224);
+}
+
+/*! ##### ⬆ HEADER ⬇ ##### */
+.top-header 
+{
+    width: 80%;
+    margin: 0px auto;
+    /* height: 80px; */
+    /* line-height: 80px; */
+}
+/*? ##### ⭐⭐⭐ ##### */
+.th-logo
+{
+    width: 20%;
+    display: flex;
+    /* justify-content: flex-end; */
+}
+/*? ##### ⭐⭐⭐ ##### */
+.th-nav
+{
+    width: 10%;
+    display: flex;
+    /* justify-content: flex-end; */
+}
+/*? ##### ⭐⭐⭐ ##### */
+.th-login
+{
+    width: 10%;
+    display: flex;
+    /* justify-content: flex-end; */
+}
+
+/*! ##### ⬆ HEADER ⬇ ##### */
+.bottom-header
+{
+    /* background-image: url("../img/jumbo.png"); */
+    /* background-size: cover; */
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+    /* text-align: center; */
+    /* color: white; */
+}
+.jumbo 
+{
+  /* max-width: 1200px; */
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  height: calc(100% / 5 - 20px);
+  min-height: 300px;
+  background-color: lightblue;
+  opacity: 0.5;
+  border-radius: 20px;
+  /* width: 50%; */
+}
+
+/*! ##### MAIN ###### */
+main
+{
+    /* background-color: black; */
+    /* color: white; */
+}
+
+/*! ##### FOOTER ###### */
+footer 
+{
+    /* background-color: black; */
+    /* color: white; */
+}
+.top-footer
+{
+    /* height: 80px; */
+    /* width: 100%; */
+    /* line-height: 80px; */
+    /* background-color: orangered; */
+    /* display: flex; */
+}
+
